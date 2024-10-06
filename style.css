@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-main{
+    padding:0 ;
+    margin: 0;
+}
+.navbar{
+    color:black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.logo a{
+    margin-top: 50px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+li a{
+    margin-top: 50px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 15px;
+    color:black
+}
+
+.abc{
+    margin-top: 100px;
+  
+}
+
+
+.abc img{
+    float: right;
+    width: 500px;
+    height: 200px;
+}
+.abc h1{
+    font-family: verdana;
+    font-size: 30px;
+    font-weight:700;
+}
+
+
+.one{
+    height: 30px;
+    width: 150px;
+    border: 2 solid red;
+}
+
+.one a{
+    text-align: left;
+    color: black;
+    text-decoration: none;
+
+}
+
+.two{
+    height: 30px;
+    border:1 solid red;
+    width: 120px;
+    background-color: blue;
+}
+
+.two a{
+    text-align: left;
+    color: white;
+    text-decoration: none;   
+}
+
+.cab img{
+    float: right;
+    width: 500px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+.cab{
+    margin-top: 70px;
+    
+}
+
+.cab h1{
+    font-family: verdana;
+    font-size: 30px;
+    font-weight:700;
+}
+
+a{ 
+    color:lime;
+}
+
+.cab fieldset{
+    width:400px;
+    height: 150px;   
+    padding-left: 5px;
+}
+
+.bac{
+    /*width: 1440px;*/
+    background-color: hsl(238, 22%, 44%);
+    color:white;
+    height: 300px;
+}
+
+
+.sam h1{
+    font-family: verdana;
+}
+
+.opp li{
+    /*margin-bottom: 50px;*/
+    float:right;
+    display: block;
+}
+
+#ass{
+    background-color: white;
+    float: right;
+    height: 30px;
+    width: 250px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+#saa{
+    display: block;
+    background-color: hsl(224, 93%, 58%);
+    float: right;
+    height: 30px;
+    width: 120px;
+    margin-bottom: 100px;
+}
+
+
+.mnb{
+    /*width: 1400px;*/
+    background-color:  hsl(243, 87%, 12%);
+    /*height: 200px;*/
+    font-family: serif;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mmm li{
+    margin-left: 100px;
+    display: block;
+    color: white;
+    text-align: left;
+}
+
+.mmm img{
+       height: 20px;
+       width: 20px;
+}
+.mmm #lll{
+    height: 40px;
+    width: 40px;
+    color: white;
+}
+
+.nnn{
+    display: flex;
+}
+.nnn li{
+    margin-top: 40;
+    margin-left: 500px;
+    display: block;
+    color: white;
+}
+
+ul #sss{
+     align-content: center;
+}
+
+@media screen and(max-width:375px) {
+    .navbar{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: aqua;
+    }
+    li{
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    li a{
+        color: blue;
+    }
+
+}
+
+@media screen and(min-width:640px) {
+    .wrapper-main{
+        padding: 100px 0;
+        margin-left: 20px;
+    }
+    li{
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media screen and(min-width:768px) {
+    .wrapper-main{
+        padding: 100px 0;
+        margin-left: 20;
+    }
+    li{
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media screen and(min-width:1024px) {
+    .wrapper-main{
+        padding: 100px 0;
+        margin-left: 20;
+    }
+
+    
+}
+
+@media screen and(min-width:1280px) {
+    .wrapper-main{
+        padding: 100px 0;
+        margin-left: 20;
+    }
+}
+
+@media screen and(min-width:1536px) {
+    .wrapper-main{
+        padding: 100px 0;
+        margin-left: 20;
+    }
+}
+
+
